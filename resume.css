@@ -75,6 +75,26 @@ p.lead {
   background-color: rgb(114, 176, 187);
 }
 
+.portfolio-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #495057 !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.portfolio-icons a:last-child {
+  margin-right: 0;
+}
+
+.portfolio-icons a:hover {
+  color: rgb(114, 176, 187) !important;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
