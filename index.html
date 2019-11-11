@@ -84,12 +84,12 @@
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96">
             <i class="fab fa-github"></i>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/weston.carpenter.96">
+          <!-- <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/weston.carpenter.96">
             <i class="fab fa-facebook-f"></i>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wes.carp/">
             <i class="fab fa-instagram"></i>
-          </a>
+          </a> -->
         </div>
       </div>
     </section>
@@ -100,106 +100,93 @@
       <div class="w-100">
         <h2 class="mb-5">Portfolio</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Movie Mood</h3>
-            <div class="subheading mb-3">Facial Recognition and OMDb API Integration</div>
-            <p>Collaborated as a full-stack developer in a team of four to create an application that suggests movies
-              through user sentiment analysis. The application uses Asynchronous JavaScript And XML to synthesize
-              <a target="_blank" rel="noopener noreferrer"
-                href="https://azure.microsoft.com/en-us/services/cognitive-services/face/">Face by Azure Cognitive
-                Services</a> and <a target="_blank" rel="noopener noreferrer" href="https://www.omdbapi.com/">OMDb's
-                API</a>.
-            </p>
+        <div class="card-deck mb-4">
+          <div class="card">
+            <img src="img/Songnotes.png" class="card-img-top" alt="Songnotes">
+            <div class="card-body">
+              <h2 class="card-title">Songnotes</h2>
+              <p class="card-text">A full-stack song forum application built with React. Scrapes top chart data from <a
+                  href="http://rollingstone.com">rollingstone.com</a> using Cheerio to parse markup and traverse the
+                resulting data structure. Uses mongoose ODM to communicate with MongoDB.
+              </p>
+            </div>
+            <div class='card-footer'>
+              <span class="text-primary">
+                <div class="list-inline portfolio-icons">
+                  <a target="_blank" rel="noopener noreferrer" href="https://song-notes.herokuapp.com/">
+                    <i class="fas fa-globe"></i></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/songnotes">
+                    <i class="fab fa-github"></i></a>
+                </div>
+              </span>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">
-              <div class="list-inline portfolio-icons">
-                <a target="_blank" rel="noopener noreferrer" href="https://spaceboycoop.github.io/MovieMood">
-                  <i class="fas fa-globe"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/cooperbrislain/MovieMood">
-                  <i class="fab fa-github"></i></a>
-              </div>
-            </span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Friend Finder</h3>
-            <div class="subheading mb-3">A Dating Application built with Express.js</div>
-            <p>A modularized application that uses Express.js routing methods to communicate with a MySQL database.
-              The client pairing survey is built with <a href="https://harvesthq.github.io/chosen/">Chosen Jquery</a>.
-              An algorithm receives the survey results, comparing
-              them with other user data to find the optimal pair. <a
-                href="https://elements.heroku.com/addons/jawsdb">JawsDB</a> connects the MySQL database to Heroku.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">
-              <div class="list-inline portfolio-icons">
-                <a target="_blank" rel="noopener noreferrer" href="https://friend-finder-weston.herokuapp.com/">
-                  <i class="fas fa-globe"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/FriendFinder">
-                  <i class="fab fa-github"></i></a>
-              </div>
-            </span>
+          <div class="card">
+            <img src="img/VoxPopuli.png" class="card-img-top" alt="Vox Populi">
+            <div class="card-body">
+              <h2 class="card-title">Vox Populi</h2>
+              <p class="card-text">A news forum application built in React with MVC architecture. Single handedly
+                developed a complete user authentication system that uses a local strategy. JWTs transfer from a MySQL
+                database with Sequelize. Also developed a backend that stores and calls user comments mapped to an
+                article database.</p>
+            </div>
+            <div class='card-footer'>
+              <span class="text-primary">
+                <div class="list-inline portfolio-icons">
+                  <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/2WjUb3n">
+                    <i class="fas fa-globe"></i></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/2MVHAju">
+                    <i class="fab fa-github"></i></a>
+                </div>
+              </span>
+            </div>
           </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Giftastic</h3>
-            <div class="subheading mb-3">A GIF Browser built with GIPHY SDK</div>
-            <p></p>
+        <div class="card-deck mb-4">
+          <div class="card">
+            <img src="img/GoogleBooksSearch.png" class="card-img-top" alt="Google Book Search">
+            <div class="card-body">
+              <h2 class="card-title">Google Books Search</h2>
+              <p class="card-text"> A full-stack React application that uses Google Books API to search for user-queried
+                books. User-selected books can be stored in a Mongo Database. Utilizes Mongoose ODM for database
+                communication and Axios for a Node-based HTTP client. </p>
+              </p>
+            </div>
+            <div class='card-footer'>
+              <span class="text-primary">
+                <div class="list-inline portfolio-icons">
+                  <a target="_blank" rel="noopener noreferrer" href="https://google-books-search-weston.herokuapp.com/">
+                    <i class="fas fa-globe"></i></a>
+                  <a target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/Wcarpenter96/google-books-search">
+                    <i class="fab fa-github"></i></a>
+                </div>
+              </span>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">
-              <div class="list-inline portfolio-icons">
-                <a target="_blank" rel="noopener noreferrer" href="https://wcarpenter96.github.io/GifTastic/">
-                  <i class="fas fa-globe"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/GifTastic">
-                  <i class="fab fa-github"></i></a>
-              </div>
-            </span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Elements</h3>
-            <div class="subheading mb-3">A Role-Playing Game utililizing jQuery</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">
-              <div class="list-inline portfolio-icons">
-                <a target="_blank" rel="noopener noreferrer" href="https://wcarpenter96.github.io/unit-4-game/">
-                  <i class="fas fa-globe"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/unit-4-game">
-                  <i class="fab fa-github"></i></a>
-              </div>
-            </span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Name That Cat</h3>
-            <div class="subheading mb-3">Jazz name Guessing Game built in plain Javascript</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">
-              <div class="list-inline portfolio-icons">
-                <a target="_blank" rel="noopener noreferrer" href="https://wcarpenter96.github.io/Word-Guess-Game/">
-                  <i class="fas fa-globe"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/Word-Guess-Game">
-                  <i class="fab fa-github"></i></a>
-              </div>
-            </span>
+          <div class="card">
+            <img src="img/FriendFinder.png" class="card-img-top" alt="Friend Finder">
+            <div class="card-body">
+              <h2 class="card-title">Friend Finder</h2>
+              <p class="card-text">A modularized application that uses Express.js routing methods to communicate with a
+                MySQL database. The client pairing survey is built with Chosen jQuery. Built an algorithm that receives
+                the survey results, comparing them with other user data to find the optimal pair.
+              </p>
+            </div>
+            <div class='card-footer'>
+              <span class="text-primary">
+                <div class="list-inline portfolio-icons">
+                  <a target="_blank" rel="noopener noreferrer" href="https://friend-finder-weston.herokuapp.com/">
+                    <i class="fas fa-globe"></i></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wcarpenter96/FriendFinder">
+                    <i class="fab fa-github"></i></a>
+                </div>
+              </span>
+            </div>
           </div>
         </div>
-
+        <div class="card-deck mb-4">
+        </div>
       </div>
 
     </section>
@@ -291,12 +278,29 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier
-          and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and
-          kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows,
-          I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements
-          in the front-end web development world.</p>
+        <p><span style="color: #343a40">Music</span> has always been an way for me to express my creativity and
+          ambition. I have been playing <span style="color: #343a40">piano</span> since
+          I was seven years old. I developed a love for jazz music in middle school,
+          and ended up playing in jazz ensembles for the next eleven years in a row. I was introduced to <span
+            style="color: #343a40"><i>Logic Pro</i></span> my
+          freshman year of high school. The program allowed me to expand my horizons in music recording and production.
+          It also gave me a newfound appreciation for electronic music. I went to Kenyon College on a <span
+            style="color: #343a40">music scholarship</span>,
+          where continued to pursue my performance and composition skills, taking courses such as <i>Advanced Computer
+            Music</i> and <i>Jazz Theory and Composition</i>. It was there that I discovered my love for <span
+            style="color: #343a40"><i>Max Cycling
+              '74</i></span>. I graduated from the department with distinction, and had the honor of performing my jazz
+          composition <i>Balmy</i> for legendary Lincoln Jazz center director and virtuoso trumpeter <span
+            style="color: #343a40">Wynton Marsalis</span>.
+        </p>
+        <p class="mb-0"><span style="color: #343a40">Swimming</span> has been an outlet for my drive and commitment. I
+          began swimming competitively when I
+          was nine, and continued the sport through my collegiate career. I was recruited by Kenyon College after my
+          performances on both the Acalanes High Swim Team and Terapins Swim Team. I was a <span
+            style="color: #343a40">NCAA All American</span> at Kenyon,
+          earning a multiple top-ten finishes at the <span style="color: #343a40">NCAA Men's Division III Swimming and
+            Diving Championships</span>. I have
+          been out of the pool the past year, but continue to pursue athletics through rowing and weightlifting. </p>
       </div>
     </section>
 
